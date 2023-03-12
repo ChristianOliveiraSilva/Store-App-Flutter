@@ -1,3 +1,4 @@
+import 'package:cestile_app/screens/product/components/custom_bottom_sheet.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -122,7 +123,15 @@ class ProductScreen extends StatelessWidget {
                           ),
                         ),
                         InkWell(
-                          onTap: () {},
+                          onTap: () {
+                            showModalBottomSheet(
+                              backgroundColor: Colors.transparent,
+                              context: context,
+                              builder: (context) {
+                                return CustomBottomSheet();
+                              }
+                            );
+                          },
                           child: Container(
                             padding: EdgeInsets.symmetric(vertical: 18, horizontal: 70),
                             decoration: BoxDecoration(
