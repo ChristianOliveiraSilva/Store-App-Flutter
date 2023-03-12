@@ -68,7 +68,7 @@ class CustomBottomSheet extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 187, 187, 187),
+                  color: Color(0xFFF7F8FA),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Icon(CupertinoIcons.minus, size: 18, color: Colors.redAccent),
@@ -83,7 +83,7 @@ class CustomBottomSheet extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 187, 187, 187),
+                  color: Color(0xFFF7F8FA),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Icon(CupertinoIcons.plus, size: 18, color: Colors.redAccent),
